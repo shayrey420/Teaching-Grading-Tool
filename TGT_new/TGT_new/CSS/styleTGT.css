@@ -1,0 +1,169 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+}
+h1,h2,h3{
+  margin: 0;
+}
+h2{
+  text-align: center;
+  margin: 0 0 20px;
+}
+a, b{
+  color:#fff;
+  text-decoration: none;
+}
+#main{
+  width: 700px;
+  margin: 20px auto;
+  background: white;
+  font-size: 18px;
+}
+#header{
+  background: rgb(26, 141, 177);
+  color: #fff;
+  padding: 25px 15px;
+}
+
+#header h1{
+  font-size: 25px;
+  text-align: center;
+}
+#header h4{
+  font-size: 15px;
+  text-align: center;
+}
+
+#header.dashboard h1{
+  width: 80%;
+  text-align: left;
+  display: inline-block;
+}
+
+#content{
+  padding: 30px 100px;
+  min-height: 400px;
+  text-align: center;
+}
+
+
+#content button{
+  background-color: rgb(26, 141, 177);
+  border-radius: 6px;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 14px;
+  /*margin:auto;*/
+}
+
+#header .user-info{
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform:  capitalize;
+  cursor: pointer;
+  position: relative;
+}
+#header.user-info p{
+  text-align: right;
+  font-size: 8px;
+
+}
+
+
+#content form .form-group{
+  font-size: 0;
+  margin: 0 0 20px;
+}
+#content form .form-group label{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 160px;
+  margin: 5px 0 0;
+  display: inline-block;
+}
+#content form .form-group input{
+  border: 2px solid #999;
+  width: calc(100% - 177px);
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+  border-radius: 5px;
+}
+#content form .form-group input.error{
+  border-color: red;
+}
+#content form .form-group input.success{
+  border-color: green;
+}
+#content form .form-group .input-error,
+#content form .form-group .input-success{
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-left: 160px;
+  margin-top: 5px;
+}
+
+#content form .form-group .input-success{
+  color: green;
+}
+
+#content form .btn{
+  color: #fff;
+  background-color: #E91E63;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px 10px;
+  margin: 0 0 0 160px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#content form .btn:hover,
+#content form .btn:focus{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.already-have,
+.register{
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.already-have a,
+.register a{
+  color: #E91E63;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.already-have a:hover,
+.register a:hover{
+ text-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+/* message box css*/
+
+.message{
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.message.error{
+  color: #fff;
+  background-color: red;  
+}
